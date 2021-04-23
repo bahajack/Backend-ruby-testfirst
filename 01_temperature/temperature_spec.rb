@@ -18,6 +18,7 @@
 require "temperature"
 
 describe "temperature conversion functions" do
+  
 
   describe "#ftoc" do
 
@@ -38,6 +39,8 @@ describe "temperature conversion functions" do
     end
 
   end
+
+
 
   describe "#ctof" do
 
@@ -63,5 +66,6 @@ describe "temperature conversion functions" do
     end
 
   end
+
 
 end
